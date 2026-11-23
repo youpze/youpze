@@ -53,10 +53,10 @@ A web app for journal clubs. Upload a paper, choose a format (for example one pr
 -->
 
 ## Skills
-Languages | Python, R, Bash/Linux, SQL (SQLite, PostgreSQL), Java 
-Workflows | Snakemake, Nextflow (nf-core), Conda, HPC, Docker, Singularity 
-Machine learning | scikit-learn, PyTorch, TensorFlow, Keras, ChromBPNet 
-Genomics | WGS, PacBio HiFi data, variant calling, DNA methylation, ATAC-seq, RNA-seq (DESeq2) 
+**Languages** Python, R, Bash/Linux, SQL (SQLite, PostgreSQL), Java\
+**Workflows** Snakemake, Nextflow (nf-core), Conda, HPC, Docker, Singularity\
+**Machine learning** scikit-learn, PyTorch, TensorFlow, Keras, ChromBPNet\
+**Genomics** WGS, PacBio HiFi data, variant calling, DNA methylation, ATAC-seq, RNA-seq (DESeq2)
 
 ## Contact
 
