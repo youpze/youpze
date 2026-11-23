@@ -16,7 +16,7 @@ Snakemake pipeline that detects imprinting disorders from DNA methylation data b
 
 
 ### Non-coding driver mutations in breast cancer
-*Netherlands Cancer Institute, Elzo de Wit lab. 6 month master's internship *
+*Netherlands Cancer Institute, Elzo de Wit lab. 6 month master's internship*
 
 Trained 12 ChromBPNet models on TCGA breast cancer ATAC-seq data, one per tumor across four subtypes, and used them to score somatic variants in regulatory elements in silico to find candidate non-coding driver mutations. Analyses in Bash, Python and R on an HPC cluster, with the deep learning models trained on a GPU cluster. The code is not publicly available as it is intellectual property of the Netherlands Cancer Institute.
 
@@ -36,16 +36,19 @@ Benchmarking the missense variant impact predictors SIFT and PolyPhen-2 against 
 Predicting breast cancer subtype (HER2+, HR+ or triple negative) from array CGH copy number profiles. Random forest combined with three feature selection strategies (random forest importance, PCA and correlation filtering), with all settings tuned in a repeated nested cross-validation to get an honest accuracy estimate on a small dataset.
 
 ### [Data-Mining](https://github.com/youpze/Data-Mining)
-*Data Mining Techniques*
 
 - **Mood prediction** from smartphone and experience sampling data. Cleaning, imputation, time window aggregation and feature engineering, followed by classical models and an LSTM.
 - **Hotel search ranking** on Expedia data as a Kaggle competition. LightGBM LambdaRank, CatBoost tuned with Optuna and a ListNet neural network in PyTorch, blended into an ensemble optimised for NDCG@5. Our team placed 21st out of 148.
 
 ### [ScML](https://github.com/youpze/ScML), Scientific Machine Learning
-*Scientific Machine Learning*
 
 Predicting protein-protein interaction interface residues at residue and protein level. Compared logistic regression, random forest, SVM, XGBoost and our own neural networks, handled the strong class imbalance with under- and oversampling, and used SHAP and permutation importance to interpret the models.
 
+## Publications
+
+Maas, S. M., Lauffer, P., Vos, N., Lombardi, P., Mannens, M. M. A. M., **Zegers, Y.**, van Zutven, L. J. C. M., Zwinderman, A. H. S., van Haelst, M. M., & Bliek, J. (2026). Clinical and Molecular Characterization of 46 Patients With Beckwith–Wiedemann Spectrum and Uniparental Disomy of 11p15. *American Journal of Medical Genetics Part A*, 1–8. [doi.org/10.1002/ajmg.a.70281](https://doi.org/10.1002/ajmg.a.70281)
+
+I performed the statistical analyses of phenotype associations and Beckwith-Wiedemann spectrum scores using linear and logistic regression models.
 <!--
 ## Currently building
 
